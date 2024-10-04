@@ -1,0 +1,5 @@
+/mnt/c/Users/HP/OneDrive/School/Uni/2nd Year/Semester 1/CPS2004 - Object Oriented Programming/Tutorials/CPS2004_Fabio/Notes/Powerpoint 2/build/CMakeFiles/studentsapp.dir
+/mnt/c/Users/HP/OneDrive/School/Uni/2nd Year/Semester 1/CPS2004 - Object Oriented Programming/Tutorials/CPS2004_Fabio/Notes/Powerpoint 2/build/CMakeFiles/references.dir
+/mnt/c/Users/HP/OneDrive/School/Uni/2nd Year/Semester 1/CPS2004 - Object Oriented Programming/Tutorials/CPS2004_Fabio/Notes/Powerpoint 2/build/CMakeFiles/references2.dir
+/mnt/c/Users/HP/OneDrive/School/Uni/2nd Year/Semester 1/CPS2004 - Object Oriented Programming/Tutorials/CPS2004_Fabio/Notes/Powerpoint 2/build/CMakeFiles/edit_cache.dir
+/mnt/c/Users/HP/OneDrive/School/Uni/2nd Year/Semester 1/CPS2004 - Object Oriented Programming/Tutorials/CPS2004_Fabio/Notes/Powerpoint 2/build/CMakeFiles/rebuild_cache.dir

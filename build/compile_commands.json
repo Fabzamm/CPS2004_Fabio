@@ -1,8 +1,8 @@
 [
 {
   "directory": "/mnt/c/Users/HP/OneDrive/School/Uni/2nd Year/Semester 1/CPS2004 - Object Oriented Programming/Tutorials/CPS2004_Fabio/build",
-  "command": "/usr/bin/c++   -g -o CMakeFiles/Test.dir/main.cpp.o -c \"/mnt/c/Users/HP/OneDrive/School/Uni/2nd Year/Semester 1/CPS2004 - Object Oriented Programming/Tutorials/CPS2004_Fabio/main.cpp\"",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/app.dir/main.cpp.o -c \"/mnt/c/Users/HP/OneDrive/School/Uni/2nd Year/Semester 1/CPS2004 - Object Oriented Programming/Tutorials/CPS2004_Fabio/main.cpp\"",
   "file": "/mnt/c/Users/HP/OneDrive/School/Uni/2nd Year/Semester 1/CPS2004 - Object Oriented Programming/Tutorials/CPS2004_Fabio/main.cpp",
-  "output": "CMakeFiles/Test.dir/main.cpp.o"
+  "output": "CMakeFiles/app.dir/main.cpp.o"
 }
 ]

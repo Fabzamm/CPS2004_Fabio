@@ -50,7 +50,7 @@ public:
 int main(int, char**){
     // std:: is called a namespace
     // allow us to create functions, classes 
-    std::cout << "Hello, from helloWorld!\n"; //printf()
+    cout << "Hello, from helloWorld!\n"; //printf()
 
     MyClass myObj1, myObj2("Hello2", 5);
     myObj1.setField1("Hello1");
@@ -58,17 +58,17 @@ int main(int, char**){
 
     // Ex to display the fields of obj1 and obj2 to cout
     // Display fields of myObj1
-    std::cout << "myObj1.field1: " << myObj1.getField1() << std::endl;
-    std::cout << "myObj1.field2: " << myObj1.getField2() << std::endl;
+    cout << "myObj1.field1: " << myObj1.getField1() << std::endl;
+    cout << "myObj1.field2: " << myObj1.getField2() << std::endl;
 
     // Display fields of myObj2
-    std::cout << "myObj2.field1: " << myObj2.getField1() << std::endl;
-    std::cout << "myObj2.field2: " << myObj2.getField2() << std::endl;
+    cout << "myObj2.field1: " << myObj2.getField1() << std::endl;
+    cout << "myObj2.field2: " << myObj2.getField2() << std::endl;
 
     // Heap allocation example (creating an object on the heap)
     MyClass* myObjHeap = new MyClass("HeapObject", 10); // Allocated on the heap
-    std::cout << "myObjHeap->field1: " << myObjHeap->getField1() << std::endl;
-    std::cout << "myObjHeap->field2: " << myObjHeap->getField2() << std::endl;
+    cout << "myObjHeap->field1: " << myObjHeap->getField1() << std::endl;
+    cout << "myObjHeap->field2: " << myObjHeap->getField2() << std::endl;
 
     // Deallocate the heap object
     delete myObjHeap; // Calls the destructor for myObjHeap

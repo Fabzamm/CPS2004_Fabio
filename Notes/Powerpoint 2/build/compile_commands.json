@@ -1,0 +1,26 @@
+[
+{
+  "directory": "/mnt/c/Users/HP/OneDrive/School/Uni/2nd Year/Semester 1/CPS2004 - Object Oriented Programming/Tutorials/CPS2004_Fabio/Notes/Powerpoint 2/build",
+  "command": "/usr/bin/c++   -g -std=gnu++20 -o CMakeFiles/studentsapp.dir/main.cpp.o -c \"/mnt/c/Users/HP/OneDrive/School/Uni/2nd Year/Semester 1/CPS2004 - Object Oriented Programming/Tutorials/CPS2004_Fabio/Notes/Powerpoint 2/main.cpp\"",
+  "file": "/mnt/c/Users/HP/OneDrive/School/Uni/2nd Year/Semester 1/CPS2004 - Object Oriented Programming/Tutorials/CPS2004_Fabio/Notes/Powerpoint 2/main.cpp",
+  "output": "CMakeFiles/studentsapp.dir/main.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/HP/OneDrive/School/Uni/2nd Year/Semester 1/CPS2004 - Object Oriented Programming/Tutorials/CPS2004_Fabio/Notes/Powerpoint 2/build",
+  "command": "/usr/bin/c++   -g -std=gnu++20 -o CMakeFiles/studentsapp.dir/student.cpp.o -c \"/mnt/c/Users/HP/OneDrive/School/Uni/2nd Year/Semester 1/CPS2004 - Object Oriented Programming/Tutorials/CPS2004_Fabio/Notes/Powerpoint 2/student.cpp\"",
+  "file": "/mnt/c/Users/HP/OneDrive/School/Uni/2nd Year/Semester 1/CPS2004 - Object Oriented Programming/Tutorials/CPS2004_Fabio/Notes/Powerpoint 2/student.cpp",
+  "output": "CMakeFiles/studentsapp.dir/student.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/HP/OneDrive/School/Uni/2nd Year/Semester 1/CPS2004 - Object Oriented Programming/Tutorials/CPS2004_Fabio/Notes/Powerpoint 2/build",
+  "command": "/usr/bin/c++   -g -std=gnu++20 -o CMakeFiles/references.dir/references.cpp.o -c \"/mnt/c/Users/HP/OneDrive/School/Uni/2nd Year/Semester 1/CPS2004 - Object Oriented Programming/Tutorials/CPS2004_Fabio/Notes/Powerpoint 2/references.cpp\"",
+  "file": "/mnt/c/Users/HP/OneDrive/School/Uni/2nd Year/Semester 1/CPS2004 - Object Oriented Programming/Tutorials/CPS2004_Fabio/Notes/Powerpoint 2/references.cpp",
+  "output": "CMakeFiles/references.dir/references.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/HP/OneDrive/School/Uni/2nd Year/Semester 1/CPS2004 - Object Oriented Programming/Tutorials/CPS2004_Fabio/Notes/Powerpoint 2/build",
+  "command": "/usr/bin/c++   -g -std=gnu++20 -o CMakeFiles/references2.dir/references2.cpp.o -c \"/mnt/c/Users/HP/OneDrive/School/Uni/2nd Year/Semester 1/CPS2004 - Object Oriented Programming/Tutorials/CPS2004_Fabio/Notes/Powerpoint 2/references2.cpp\"",
+  "file": "/mnt/c/Users/HP/OneDrive/School/Uni/2nd Year/Semester 1/CPS2004 - Object Oriented Programming/Tutorials/CPS2004_Fabio/Notes/Powerpoint 2/references2.cpp",
+  "output": "CMakeFiles/references2.dir/references2.cpp.o"
+}
+]
