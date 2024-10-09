@@ -7,10 +7,12 @@ class MyClass { // syntax follows the c syntax for structs
 
     // attributes functions methods and fields
 private:
+
     string field1;
     int field2;
 
 public:
+
     // default constructor
     MyClass() : field1("Hello"), field2(2) { // initializer list
         cout << "Default constructor called" <<endl; 
@@ -47,31 +49,43 @@ public:
 
 };
 
-int main(int, char**){
+//non-member function
+int main(int args, char** argv){
     // std:: is called a namespace
     // allow us to create functions, classes 
-    cout << "Hello, from helloWorld!\n"; //printf()
+    cout << "Hello, from helloWorld!" << endl; //printf() std::ostream
 
+    //Stack
     MyClass myObj1, myObj2("Hello2", 5);
     myObj1.setField1("Hello1");
     myObj1.setField2(2);
 
-    // Ex to display the fields of obj1 and obj2 to cout
+    // Exercise - to display the fields of obj1 and obj2 to cout
     // Display fields of myObj1
-    cout << "myObj1.field1: " << myObj1.getField1() << std::endl;
-    cout << "myObj1.field2: " << myObj1.getField2() << std::endl;
+    /*
+    cout << "myObj1.field1: " << myObj1.getField1() << endl;
+    cout << "myObj1.field2: " << myObj1.getField2() << endl;
+    */
+    cout << "myObj1: " << myObj1.getField1() << " " << myObj1.getField2() << endl;
 
     // Display fields of myObj2
-    cout << "myObj2.field1: " << myObj2.getField1() << std::endl;
-    cout << "myObj2.field2: " << myObj2.getField2() << std::endl;
+    /*
+    cout << "myObj2.field1: " << myObj2.getField1() << endl;
+    cout << "myObj2.field2: " << myObj2.getField2() << endl;
+    */
+    cout << "myObj2: " << myObj2.getField1() << " " << myObj2.getField2() << endl;
 
     // Heap allocation example (creating an object on the heap)
-    MyClass* myObjHeap = new MyClass("HeapObject", 10); // Allocated on the heap
-    cout << "myObjHeap->field1: " << myObjHeap->getField1() << std::endl;
-    cout << "myObjHeap->field2: " << myObjHeap->getField2() << std::endl;
+    MyClass* myObjHeap = new MyClass("HeapObject", 10); // Allocated on the heap ... NOT the modern C++ way !!! raw pointers
+    myObjHeap->setField2(4);
+    cout << "myObjHeap->field1: " << myObjHeap->getField1() << endl;
+    cout << "myObjHeap->field2: " << myObjHeap->getField2() << endl;
 
     // Deallocate the heap object
     delete myObjHeap; // Calls the destructor for myObjHeap
+    myObjHeap = nullptr; //TESTABILITY!!! null and nullptr vs NULL in C
 
+    //int myint2 = myObjHeap->getField2(); //Undefined!!!
+    
     // Command Shift P to do the cmake run etc
 }
