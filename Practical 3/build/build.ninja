@@ -49,8 +49,26 @@ cmake_ninja_workdir = /mnt/c/Users/HP/OneDrive/School/Uni/2nd$ Year/Semester$ 1/
 
 build cmake_object_order_depends_target_Test: phony || CMakeFiles/Test.dir
 
-build CMakeFiles/Test.dir/test.cpp.o: CXX_COMPILER__Test_unscanned_Debug /mnt/c/Users/HP/OneDrive/School/Uni/2nd$ Year/Semester$ 1/CPS2004$ -$ Object$ Oriented$ Programming/VSCode/Tutorials/CPS2004_Fabio/Practical$ 3/test.cpp || cmake_object_order_depends_target_Test
-  DEP_FILE = CMakeFiles/Test.dir/test.cpp.o.d
+build CMakeFiles/Test.dir/main.cpp.o: CXX_COMPILER__Test_unscanned_Debug /mnt/c/Users/HP/OneDrive/School/Uni/2nd$ Year/Semester$ 1/CPS2004$ -$ Object$ Oriented$ Programming/VSCode/Tutorials/CPS2004_Fabio/Practical$ 3/main.cpp || cmake_object_order_depends_target_Test
+  DEP_FILE = CMakeFiles/Test.dir/main.cpp.o.d
+  FLAGS = -g -std=gnu++11
+  OBJECT_DIR = CMakeFiles/Test.dir
+  OBJECT_FILE_DIR = CMakeFiles/Test.dir
+
+build CMakeFiles/Test.dir/Item.cpp.o: CXX_COMPILER__Test_unscanned_Debug /mnt/c/Users/HP/OneDrive/School/Uni/2nd$ Year/Semester$ 1/CPS2004$ -$ Object$ Oriented$ Programming/VSCode/Tutorials/CPS2004_Fabio/Practical$ 3/Item.cpp || cmake_object_order_depends_target_Test
+  DEP_FILE = CMakeFiles/Test.dir/Item.cpp.o.d
+  FLAGS = -g -std=gnu++11
+  OBJECT_DIR = CMakeFiles/Test.dir
+  OBJECT_FILE_DIR = CMakeFiles/Test.dir
+
+build CMakeFiles/Test.dir/Grocery.cpp.o: CXX_COMPILER__Test_unscanned_Debug /mnt/c/Users/HP/OneDrive/School/Uni/2nd$ Year/Semester$ 1/CPS2004$ -$ Object$ Oriented$ Programming/VSCode/Tutorials/CPS2004_Fabio/Practical$ 3/Grocery.cpp || cmake_object_order_depends_target_Test
+  DEP_FILE = CMakeFiles/Test.dir/Grocery.cpp.o.d
+  FLAGS = -g -std=gnu++11
+  OBJECT_DIR = CMakeFiles/Test.dir
+  OBJECT_FILE_DIR = CMakeFiles/Test.dir
+
+build CMakeFiles/Test.dir/Electronics.cpp.o: CXX_COMPILER__Test_unscanned_Debug /mnt/c/Users/HP/OneDrive/School/Uni/2nd$ Year/Semester$ 1/CPS2004$ -$ Object$ Oriented$ Programming/VSCode/Tutorials/CPS2004_Fabio/Practical$ 3/Electronics.cpp || cmake_object_order_depends_target_Test
+  DEP_FILE = CMakeFiles/Test.dir/Electronics.cpp.o.d
   FLAGS = -g -std=gnu++11
   OBJECT_DIR = CMakeFiles/Test.dir
   OBJECT_FILE_DIR = CMakeFiles/Test.dir
@@ -63,7 +81,7 @@ build CMakeFiles/Test.dir/test.cpp.o: CXX_COMPILER__Test_unscanned_Debug /mnt/c/
 #############################################
 # Link the executable Test
 
-build Test: CXX_EXECUTABLE_LINKER__Test_Debug CMakeFiles/Test.dir/test.cpp.o
+build Test: CXX_EXECUTABLE_LINKER__Test_Debug CMakeFiles/Test.dir/main.cpp.o CMakeFiles/Test.dir/Item.cpp.o CMakeFiles/Test.dir/Grocery.cpp.o CMakeFiles/Test.dir/Electronics.cpp.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/Test.dir
   POST_BUILD = :

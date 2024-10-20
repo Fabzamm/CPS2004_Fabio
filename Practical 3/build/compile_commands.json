@@ -1,8 +1,26 @@
 [
 {
   "directory": "/mnt/c/Users/HP/OneDrive/School/Uni/2nd Year/Semester 1/CPS2004 - Object Oriented Programming/VSCode/Tutorials/CPS2004_Fabio/Practical 3/build",
-  "command": "/usr/bin/g++ -g -std=gnu++11 -o CMakeFiles/Test.dir/test.cpp.o -c \"/mnt/c/Users/HP/OneDrive/School/Uni/2nd Year/Semester 1/CPS2004 - Object Oriented Programming/VSCode/Tutorials/CPS2004_Fabio/Practical 3/test.cpp\"",
-  "file": "/mnt/c/Users/HP/OneDrive/School/Uni/2nd Year/Semester 1/CPS2004 - Object Oriented Programming/VSCode/Tutorials/CPS2004_Fabio/Practical 3/test.cpp",
-  "output": "CMakeFiles/Test.dir/test.cpp.o"
+  "command": "/usr/bin/g++ -g -std=gnu++11 -o CMakeFiles/Test.dir/main.cpp.o -c \"/mnt/c/Users/HP/OneDrive/School/Uni/2nd Year/Semester 1/CPS2004 - Object Oriented Programming/VSCode/Tutorials/CPS2004_Fabio/Practical 3/main.cpp\"",
+  "file": "/mnt/c/Users/HP/OneDrive/School/Uni/2nd Year/Semester 1/CPS2004 - Object Oriented Programming/VSCode/Tutorials/CPS2004_Fabio/Practical 3/main.cpp",
+  "output": "CMakeFiles/Test.dir/main.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/HP/OneDrive/School/Uni/2nd Year/Semester 1/CPS2004 - Object Oriented Programming/VSCode/Tutorials/CPS2004_Fabio/Practical 3/build",
+  "command": "/usr/bin/g++ -g -std=gnu++11 -o CMakeFiles/Test.dir/Item.cpp.o -c \"/mnt/c/Users/HP/OneDrive/School/Uni/2nd Year/Semester 1/CPS2004 - Object Oriented Programming/VSCode/Tutorials/CPS2004_Fabio/Practical 3/Item.cpp\"",
+  "file": "/mnt/c/Users/HP/OneDrive/School/Uni/2nd Year/Semester 1/CPS2004 - Object Oriented Programming/VSCode/Tutorials/CPS2004_Fabio/Practical 3/Item.cpp",
+  "output": "CMakeFiles/Test.dir/Item.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/HP/OneDrive/School/Uni/2nd Year/Semester 1/CPS2004 - Object Oriented Programming/VSCode/Tutorials/CPS2004_Fabio/Practical 3/build",
+  "command": "/usr/bin/g++ -g -std=gnu++11 -o CMakeFiles/Test.dir/Grocery.cpp.o -c \"/mnt/c/Users/HP/OneDrive/School/Uni/2nd Year/Semester 1/CPS2004 - Object Oriented Programming/VSCode/Tutorials/CPS2004_Fabio/Practical 3/Grocery.cpp\"",
+  "file": "/mnt/c/Users/HP/OneDrive/School/Uni/2nd Year/Semester 1/CPS2004 - Object Oriented Programming/VSCode/Tutorials/CPS2004_Fabio/Practical 3/Grocery.cpp",
+  "output": "CMakeFiles/Test.dir/Grocery.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/HP/OneDrive/School/Uni/2nd Year/Semester 1/CPS2004 - Object Oriented Programming/VSCode/Tutorials/CPS2004_Fabio/Practical 3/build",
+  "command": "/usr/bin/g++ -g -std=gnu++11 -o CMakeFiles/Test.dir/Electronics.cpp.o -c \"/mnt/c/Users/HP/OneDrive/School/Uni/2nd Year/Semester 1/CPS2004 - Object Oriented Programming/VSCode/Tutorials/CPS2004_Fabio/Practical 3/Electronics.cpp\"",
+  "file": "/mnt/c/Users/HP/OneDrive/School/Uni/2nd Year/Semester 1/CPS2004 - Object Oriented Programming/VSCode/Tutorials/CPS2004_Fabio/Practical 3/Electronics.cpp",
+  "output": "CMakeFiles/Test.dir/Electronics.cpp.o"
 }
 ]
