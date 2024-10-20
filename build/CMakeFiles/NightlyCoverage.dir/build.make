@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/mnt/c/Users/HP/OneDrive/School/Uni/2nd Year/Semester 1/CPS2004 - Object Oriented Programming/Tutorials/CPS2004_Fabio"
+CMAKE_SOURCE_DIR = "/mnt/c/Users/HP/OneDrive/School/Uni/2nd Year/Semester 1/CPS2004 - Object Oriented Programming/VSCode/Tutorials/CPS2004_Fabio"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/mnt/c/Users/HP/OneDrive/School/Uni/2nd Year/Semester 1/CPS2004 - Object Oriented Programming/Tutorials/CPS2004_Fabio/build"
+CMAKE_BINARY_DIR = "/mnt/c/Users/HP/OneDrive/School/Uni/2nd Year/Semester 1/CPS2004 - Object Oriented Programming/VSCode/Tutorials/CPS2004_Fabio/build"
 
 # Utility rule file for NightlyCoverage.
 
@@ -82,6 +82,6 @@ CMakeFiles/NightlyCoverage.dir/clean:
 .PHONY : CMakeFiles/NightlyCoverage.dir/clean
 
 CMakeFiles/NightlyCoverage.dir/depend:
-	cd "/mnt/c/Users/HP/OneDrive/School/Uni/2nd Year/Semester 1/CPS2004 - Object Oriented Programming/Tutorials/CPS2004_Fabio/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/mnt/c/Users/HP/OneDrive/School/Uni/2nd Year/Semester 1/CPS2004 - Object Oriented Programming/Tutorials/CPS2004_Fabio" "/mnt/c/Users/HP/OneDrive/School/Uni/2nd Year/Semester 1/CPS2004 - Object Oriented Programming/Tutorials/CPS2004_Fabio" "/mnt/c/Users/HP/OneDrive/School/Uni/2nd Year/Semester 1/CPS2004 - Object Oriented Programming/Tutorials/CPS2004_Fabio/build" "/mnt/c/Users/HP/OneDrive/School/Uni/2nd Year/Semester 1/CPS2004 - Object Oriented Programming/Tutorials/CPS2004_Fabio/build" "/mnt/c/Users/HP/OneDrive/School/Uni/2nd Year/Semester 1/CPS2004 - Object Oriented Programming/Tutorials/CPS2004_Fabio/build/CMakeFiles/NightlyCoverage.dir/DependInfo.cmake" "--color=$(COLOR)"
+	cd "/mnt/c/Users/HP/OneDrive/School/Uni/2nd Year/Semester 1/CPS2004 - Object Oriented Programming/VSCode/Tutorials/CPS2004_Fabio/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/mnt/c/Users/HP/OneDrive/School/Uni/2nd Year/Semester 1/CPS2004 - Object Oriented Programming/VSCode/Tutorials/CPS2004_Fabio" "/mnt/c/Users/HP/OneDrive/School/Uni/2nd Year/Semester 1/CPS2004 - Object Oriented Programming/VSCode/Tutorials/CPS2004_Fabio" "/mnt/c/Users/HP/OneDrive/School/Uni/2nd Year/Semester 1/CPS2004 - Object Oriented Programming/VSCode/Tutorials/CPS2004_Fabio/build" "/mnt/c/Users/HP/OneDrive/School/Uni/2nd Year/Semester 1/CPS2004 - Object Oriented Programming/VSCode/Tutorials/CPS2004_Fabio/build" "/mnt/c/Users/HP/OneDrive/School/Uni/2nd Year/Semester 1/CPS2004 - Object Oriented Programming/VSCode/Tutorials/CPS2004_Fabio/build/CMakeFiles/NightlyCoverage.dir/DependInfo.cmake" "--color=$(COLOR)"
 .PHONY : CMakeFiles/NightlyCoverage.dir/depend
 

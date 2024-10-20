@@ -4,8 +4,8 @@
 
 
 # Configuration directories and files
-SourceDirectory: /mnt/c/Users/HP/OneDrive/School/Uni/2nd Year/Semester 1/CPS2004 - Object Oriented Programming/Tutorials/CPS2004_Fabio
-BuildDirectory: /mnt/c/Users/HP/OneDrive/School/Uni/2nd Year/Semester 1/CPS2004 - Object Oriented Programming/Tutorials/CPS2004_Fabio/build
+SourceDirectory: /mnt/c/Users/HP/OneDrive/School/Uni/2nd Year/Semester 1/CPS2004 - Object Oriented Programming/VSCode/Tutorials/CPS2004_Fabio
+BuildDirectory: /mnt/c/Users/HP/OneDrive/School/Uni/2nd Year/Semester 1/CPS2004 - Object Oriented Programming/VSCode/Tutorials/CPS2004_Fabio/build
 
 # Where to place the cost data store
 CostDataFile: 
@@ -14,7 +14,7 @@ CostDataFile:
 Site: DESKTOP-3GODGFN
 
 # Build name is osname-revision-compiler, i.e. Linux-2.4.2-2smp-c++
-BuildName: Linux-c++
+BuildName: Linux-g++
 
 # Subprojects
 LabelsForSubprojects: 
@@ -27,7 +27,7 @@ SubmitInactivityTimeout:
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "/usr/bin/cmake" "/mnt/c/Users/HP/OneDrive/School/Uni/2nd Year/Semester 1/CPS2004 - Object Oriented Programming/Tutorials/CPS2004_Fabio"
+ConfigureCommand: "/usr/bin/cmake" "/mnt/c/Users/HP/OneDrive/School/Uni/2nd Year/Semester 1/CPS2004 - Object Oriented Programming/VSCode/Tutorials/CPS2004_Fabio"
 MakeCommand: /usr/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}"
 DefaultCTestConfigurationType: Release
 
@@ -63,7 +63,7 @@ UpdateOptions:
 UpdateType: git
 
 # Compiler info
-Compiler: /usr/bin/c++
+Compiler: /usr/bin/g++
 CompilerVersion: 13.2.0
 
 # Dynamic analysis (MemCheck)

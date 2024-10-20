@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/mnt/c/Users/HP/OneDrive/School/Uni/2nd Year/Semester 1/CPS2004 - Object Oriented Programming/Tutorials/CPS2004_Fabio"
+CMAKE_SOURCE_DIR = "/mnt/c/Users/HP/OneDrive/School/Uni/2nd Year/Semester 1/CPS2004 - Object Oriented Programming/VSCode/Tutorials/CPS2004_Fabio"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/mnt/c/Users/HP/OneDrive/School/Uni/2nd Year/Semester 1/CPS2004 - Object Oriented Programming/Tutorials/CPS2004_Fabio/build"
+CMAKE_BINARY_DIR = "/mnt/c/Users/HP/OneDrive/School/Uni/2nd Year/Semester 1/CPS2004 - Object Oriented Programming/VSCode/Tutorials/CPS2004_Fabio/build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -97,9 +97,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/c/Users/HP/OneDrive/School/Uni/2nd Year/Semester 1/CPS2004 - Object Oriented Programming/Tutorials/CPS2004_Fabio/build/CMakeFiles" "/mnt/c/Users/HP/OneDrive/School/Uni/2nd Year/Semester 1/CPS2004 - Object Oriented Programming/Tutorials/CPS2004_Fabio/build//CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/c/Users/HP/OneDrive/School/Uni/2nd Year/Semester 1/CPS2004 - Object Oriented Programming/VSCode/Tutorials/CPS2004_Fabio/build/CMakeFiles" "/mnt/c/Users/HP/OneDrive/School/Uni/2nd Year/Semester 1/CPS2004 - Object Oriented Programming/VSCode/Tutorials/CPS2004_Fabio/build//CMakeFiles/progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/c/Users/HP/OneDrive/School/Uni/2nd Year/Semester 1/CPS2004 - Object Oriented Programming/Tutorials/CPS2004_Fabio/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/c/Users/HP/OneDrive/School/Uni/2nd Year/Semester 1/CPS2004 - Object Oriented Programming/VSCode/Tutorials/CPS2004_Fabio/build/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -138,6 +138,19 @@ app: cmake_check_build_system
 app/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/build
 .PHONY : app/fast
+
+#=============================================================================
+# Target rules for targets named binops
+
+# Build rule for target.
+binops: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 binops
+.PHONY : binops
+
+# fast build rule for target.
+binops/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/binops.dir/build.make CMakeFiles/binops.dir/build
+.PHONY : binops/fast
 
 #=============================================================================
 # Target rules for targets named Experimental
@@ -503,6 +516,30 @@ ContinuousSubmit/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ContinuousSubmit.dir/build.make CMakeFiles/ContinuousSubmit.dir/build
 .PHONY : ContinuousSubmit/fast
 
+binops.o: binops.cpp.o
+.PHONY : binops.o
+
+# target to build an object file
+binops.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/binops.dir/build.make CMakeFiles/binops.dir/binops.cpp.o
+.PHONY : binops.cpp.o
+
+binops.i: binops.cpp.i
+.PHONY : binops.i
+
+# target to preprocess a source file
+binops.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/binops.dir/build.make CMakeFiles/binops.dir/binops.cpp.i
+.PHONY : binops.cpp.i
+
+binops.s: binops.cpp.s
+.PHONY : binops.s
+
+# target to generate assembly for a file
+binops.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/binops.dir/build.make CMakeFiles/binops.dir/binops.cpp.s
+.PHONY : binops.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -565,6 +602,10 @@ help:
 	@echo "... NightlyTest"
 	@echo "... NightlyUpdate"
 	@echo "... app"
+	@echo "... binops"
+	@echo "... binops.o"
+	@echo "... binops.i"
+	@echo "... binops.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

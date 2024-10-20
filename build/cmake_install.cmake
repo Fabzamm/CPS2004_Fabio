@@ -1,4 +1,4 @@
-# Install script for directory: /mnt/c/Users/HP/OneDrive/School/Uni/2nd Year/Semester 1/CPS2004 - Object Oriented Programming/Tutorials/CPS2004_Fabio
+# Install script for directory: /mnt/c/Users/HP/OneDrive/School/Uni/2nd Year/Semester 1/CPS2004 - Object Oriented Programming/VSCode/Tutorials/CPS2004_Fabio
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/mnt/c/Users/HP/OneDrive/School/Uni/2nd Year/Semester 1/CPS2004 - Object Oriented Programming/Tutorials/CPS2004_Fabio/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/mnt/c/Users/HP/OneDrive/School/Uni/2nd Year/Semester 1/CPS2004 - Object Oriented Programming/VSCode/Tutorials/CPS2004_Fabio/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
