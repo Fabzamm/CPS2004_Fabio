@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/mnt/c/Users/HP/OneDrive/School/Uni/2nd Year/Semester 1/CPS2004 - Object Oriented Programming/VSCode/Tutorials/CPS2004_Fabio/Practical 2/build",
+  "command": "/usr/bin/g++ -g -std=gnu++20 -o CMakeFiles/binops.dir/binops.cpp.o -c \"/mnt/c/Users/HP/OneDrive/School/Uni/2nd Year/Semester 1/CPS2004 - Object Oriented Programming/VSCode/Tutorials/CPS2004_Fabio/Practical 2/binops.cpp\"",
+  "file": "/mnt/c/Users/HP/OneDrive/School/Uni/2nd Year/Semester 1/CPS2004 - Object Oriented Programming/VSCode/Tutorials/CPS2004_Fabio/Practical 2/binops.cpp",
+  "output": "CMakeFiles/binops.dir/binops.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/HP/OneDrive/School/Uni/2nd Year/Semester 1/CPS2004 - Object Oriented Programming/VSCode/Tutorials/CPS2004_Fabio/Practical 2/build",
+  "command": "/usr/bin/g++ -g -std=gnu++20 -o CMakeFiles/binopsANS.dir/binops_ans_key.cpp.o -c \"/mnt/c/Users/HP/OneDrive/School/Uni/2nd Year/Semester 1/CPS2004 - Object Oriented Programming/VSCode/Tutorials/CPS2004_Fabio/Practical 2/binops_ans_key.cpp\"",
+  "file": "/mnt/c/Users/HP/OneDrive/School/Uni/2nd Year/Semester 1/CPS2004 - Object Oriented Programming/VSCode/Tutorials/CPS2004_Fabio/Practical 2/binops_ans_key.cpp",
+  "output": "CMakeFiles/binopsANS.dir/binops_ans_key.cpp.o"
+}
+]

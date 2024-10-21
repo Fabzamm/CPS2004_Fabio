@@ -8,9 +8,9 @@ using namespace std;
 
 /*
 struct binops {
-    double opnd1;
+    float opnd1;
     char op;
-    double opnd2;
+    float opnd2;
 };
 */
 
