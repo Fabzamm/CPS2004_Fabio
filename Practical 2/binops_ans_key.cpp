@@ -48,30 +48,36 @@ int main(int,char**){
         try{
             cout << i +1 << "\n Enter first operand: ";
             if(!(cin >> opnd1)){
-                cin.clear(); // Clear the error flags
-                cin.ignore(numeric_limits<streamsize>::max(), '\n'); // Discard the invalid input
                 throw invalid_argument("Invalid input. Please enter valid numbers and an operator.");
             }
             
             cout << "Enter second operand: ";
-            cin >> opnd2;
+            if(!(cin >> opnd2)){
+                throw invalid_argument("Invalid input. Please enter valid numbers and an operator.");
+            }
             
             cout << "Enter operator (+, -, *, /): ";
-            cin >> op;
+            if(!(cin >> op)){
+                throw invalid_argument("Invalid input. Please enter valid numbers and an operator.");
+            }
             
             cout << "\n";
+
+            //update input array
+            binops[i].opnd1 = opnd1;
+            binops[i].opnd2 = opnd2;
+            binops[i].operation = op;
 
             //validate last input <<<
         } catch(const invalid_argument& e){
             cout << "Error: " << e.what() << endl; // Invalid operator
+            cin.clear(); // Clear the error flags
+            cin.ignore(numeric_limits<streamsize>::max(), '\n'); // Discard the invalid input
+            i--;
         }
 
-        //update input array
-        binops[i].opnd1 = opnd1;
-        binops[i].opnd2 = opnd2;
-        binops[i].operation = op;
 
-        //add a prompt to continue or quit
+        //add a prompt to continue or quit -- TAKE HOME EXERCISE
     }
 
     cout << "Your input follows" << endl;
@@ -81,4 +87,11 @@ int main(int,char**){
     }
 
     //write text output to disk
+    ofstream outFile("eval.txt");
+
+    for(int j = 0; j <SIZE; j++){
+        outFile << binops[j].opnd1 << " " << binops[j].operation << " " << binops[j].opnd2 << "=" << evaluate(binops[j].opnd1, binops[j].opnd2, binops[j].operation) << endl;
+    }
+
+    outFile.close();
 }
