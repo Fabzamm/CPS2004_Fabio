@@ -18,3 +18,7 @@ double Grocery::getWeight() const {
 void Grocery::setWeight(const double w) {
     weight = w;
 }
+
+void Grocery::persist(std::ofstream& f){
+    f << 0 << qty << price << weight << std::endl;
+}

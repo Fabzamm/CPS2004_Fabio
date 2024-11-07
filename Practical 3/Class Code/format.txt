@@ -1,0 +1,4 @@
+1 lettuce 2 2.5 50
+2 laptop 2 2.5 2023
+1 cabbage 2 2.5 50
+6

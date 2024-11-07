@@ -10,6 +10,7 @@ private:
 public:
     Grocery(int quantity, double cost, double w);
     void displayInfo() const override;
+    void persist(std::ofstream& f) override;
 
     // Getter for weight
     double getWeight() const;

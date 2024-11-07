@@ -7,3 +7,7 @@ void Electronics::displayInfo() const {
     std::cout << "Item Type: Electronics\n";
     Item::displayInfo();
 }
+
+void Electronics::persist(std::ofstream& f){
+    f << 1 << qty << price << std::endl;
+}

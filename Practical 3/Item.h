@@ -13,6 +13,8 @@ public:
 
     virtual ~Item() = default;
     virtual void displayInfo() const;
+    virtual void persist(std::ofstream& f) = 0;
+    virtual void restore();
 
     //Getters
     int getQty() const;

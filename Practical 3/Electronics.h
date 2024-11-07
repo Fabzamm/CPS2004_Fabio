@@ -7,6 +7,7 @@ class Electronics : public Item {
 public:
     Electronics(int quantity, double cost);
     void displayInfo() const override;
+    void persist(std::ofstream& f) override;
 };
 
 #endif // ELECTRONICS_H
