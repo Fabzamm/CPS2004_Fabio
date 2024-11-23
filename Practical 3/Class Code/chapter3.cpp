@@ -129,13 +129,11 @@ int main() {
         }
     }
 
-
     // Display information about all items in the shopping cart
     std::cout << "\nShopping Cart Items:\n";
     for (const auto& item : shoppingCart) {
         item->displayInfo();  // Call displayInfo for each item
     }
-    
     
     // Save the collection to a file on exit
     persistCollection(shoppingCart, filename);
